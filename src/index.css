@@ -1,0 +1,64 @@
+@import "tailwindcss";
+html, body{
+  margin:0;
+  padding: 0;
+  font-family: "Space grotesk", sans-serif;
+  background: #0E2431;
+  
+}
+
+.button-1 {
+  background: #6206ad;
+  color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-1:hover {
+  background: #380568;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+.button-2 {
+  background: #02556e;
+  color: #fff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-2:hover {
+  background: #012c38;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+@layer utilities{
+  @keyframes blink{
+    0%, 
+    100%{
+      opacity:1;
+    }
+    50%{
+      opacity:0;
+    }
+  }
+  .animate-blink{
+    animation: blink 0.8s step-end infinite;
+  }
+
+  @keyframes loading{
+    0%{
+      transform: translateX(-100%);
+    }
+    100%{
+      transform: translateX(250%);
+    }
+  }
+  .animate-loading-bar{
+    animation:loading 0.8s ease infinite;
+  }
+}
