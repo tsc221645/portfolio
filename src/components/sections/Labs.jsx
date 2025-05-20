@@ -21,7 +21,7 @@ export const Labs = () => {
                 </a>
 
 
-                <a href="/cmdclue/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tsc221645/command-line-clue.git">
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-white-500/30 hover:shadow-white">
                         <h3 className="font-bold py-2">
                             Command Line Clue
@@ -103,7 +103,7 @@ export const Labs = () => {
                     </div>
                 </a>
 
-                <a href="/lab6/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tsc221645/CC3062_lab6.git">
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-white-500/30 hover:shadow-white">
                         <h3 className="font-bold py-2">
                             Lab 6 - Backend only - Parte 1
@@ -122,7 +122,7 @@ export const Labs = () => {
                     </div>
                 </a>
 
-                <a href="/lab6/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tsc221645/CC3062_lab6.git" >
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-white-500/30 hover:shadow-white">
                         <h3 className="font-bold py-2">
                             Lab 6 - Backend only - Parte 2
