@@ -1,3 +1,6 @@
+import capiappimage from '../../assets/capiapp.png';
+import calculatorimage from '../../assets/calculator.png';
+import booktribeimage from '../../assets/booktribe.png';
 export const Projects = () => {
 
     return (
@@ -12,7 +15,7 @@ export const Projects = () => {
                         <h3 className="font-bold py-2">
                             CapiApp
                         </h3>
-                        <img src="src/assets/capiapp.png" alt="CapiApp Preview"
+                        <img src={capiappimage} alt="CapiApp Preview"
                             className="rounded-lg w-full h-auto mb-4 object-cover max-h-52" />
                         <p>
                             The CapiApp is a web application inspired by the world's biggest rodent, the Capybara. It has a friendly and chill vibe that was translated into this project.
@@ -34,19 +37,20 @@ export const Projects = () => {
                         <h3 className="font-bold py-2">
                             Calculator
                         </h3>
-                        <img src="src/assets/calculator.png" alt="Calculator project preview"
+                        <img src={calculatorimage} alt="Calculator Preview"
                             className="rounded-lg w-full h-auto mb-4 object-cover max-h-52" />
-                        <p>
-                            This is a simple calculator with a friendly and capybara-inspired theme.
-                        </p>
-                        <div className="flex flex-wrap gap-2">
-                            {["React", "CSS", "HTML"].map((tech, key) => (
-                                <span className="bg-pink-500/10 text-pink-500 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20
+                        
+                            <p>
+                                This is a simple calculator with a friendly and capybara-inspired theme.
+                            </p>
+                            <div className="flex flex-wrap gap-2">
+                                {["React", "CSS", "HTML"].map((tech, key) => (
+                                    <span className="bg-pink-500/10 text-pink-500 py-1 px-3 rounded-full text-sm hover:bg-pink-500/20
                             hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-                                    {tech}
-                                </span>
-                            ))}
-                        </div>
+                                        {tech}
+                                    </span>
+                                ))}
+                            </div>
 
                     </div>
                 </a>
@@ -56,7 +60,7 @@ export const Projects = () => {
                         <h3 className="font-bold py-2">
                             BookTribe - Mobile App
                         </h3>
-                        <img src="src/assets/booktribe.png" alt="Calculator project preview"
+                        <img src={booktribeimage} alt="booktribe Preview"
                             className="rounded-lg w-full h-auto mb-4 object-cover max-h-52" />
                         <p>
                             Application made to search, save and manage your favorite books while sharing your
