@@ -44,6 +44,7 @@ export const Projects = () => {
                             </span>
                         ))}
                     </div>
+                    
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-white-500/30 hover:shadow-white">

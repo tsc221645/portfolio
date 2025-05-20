@@ -123,7 +123,7 @@ export const Labs = () => {
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-white-500/30 hover:shadow-white">
-                    <h3 className="font-bold py-2">
+                    <h3 className="font-bold py-2" >
                         Lab 7 - React
                     </h3>
                     <p>
